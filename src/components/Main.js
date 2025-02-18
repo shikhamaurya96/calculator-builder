@@ -4,7 +4,7 @@ import Calculator from './calculator/Calculator'
 
 const Main = () => {
     return (
-        <div className="grid  sm:grid-cols-12 sm:p-8 gap-4 h-screen">
+        <div className="grid sm:grid-cols-12 sm:p-8 gap-4 h-screen">
             <div className='sm:col-span-4 h-full'>
                 <ToolPanel />
             </div>
