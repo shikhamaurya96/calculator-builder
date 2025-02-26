@@ -160,7 +160,7 @@ const buttonStore = (set) => ({
     }
     )),
     changeButtonState: (item) => set((state) => ({
-         toolPanelList: state.toolPanelList.map((n) => (n.id == item.id)? item : n)
+         toolPanelList: state.toolPanelList.map((n) => (n.id === item.id)? item : n)
     }
     )),
     setCardBounding: (bound) => set((state) => ({

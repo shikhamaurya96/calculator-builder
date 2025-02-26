@@ -10,7 +10,7 @@ const Calculator = () => {
       const rect = divRef.current.getBoundingClientRect();
       setCardBounding(rect)
     }
-  }, []);
+  }, [setCardBounding]);
 
   return (
     <div key={"cal"} className={(isDragging ? "bg-yellow-100" : "bg-gray-300") + " p-2 border shadow-lg  min-h-[500px] h-full"} ref={divRef}>
