@@ -11,7 +11,6 @@ const DraggableComponent = ({ item }) => {
     const changeButtonState = useButtonStore((state) => state.changeButtonState);
     const cardBounding = useButtonStore((state) => state.cardBounding);
     const [dragging, setDragging] = useState(false);
-    const [isClicked, setClicked] = useState(false);
     const [startTimeStamp, setStartTimeStamp] = useState(0);
     const timeoutRef = useRef(null);
     const onItemClick = useButtonStore((state) => state.onItemClick);
